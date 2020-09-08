@@ -1,2 +1,2 @@
 # Dead-Pixels
-A free and open source 2D game platform (in progress!) built in Java 14 with libGDX
+A free and open source 2D game platform (in progress!) built in Java 14 with libGDX. Many components of this project are very early, and there is no documentation written as of now. LibGDX provides a lightweight cross-platform OpenGL engine for games to run from; however, I found that it lacked in some development tools that I would have liked to have when using it. Therefrom came the birth of this project!
