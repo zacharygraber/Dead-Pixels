@@ -1,0 +1,34 @@
+{
+renderedObjects: []
+GUIElements: [
+	{
+		class: com.zegraber.deadpixels.gui.GUIStaticImage
+		elementID: menu_logo
+		textureID: title_screen_2
+	}
+]
+scriptedEvents: [
+	{
+		eventID: quit_on_escape
+		trigger: keyPressed_Esc
+		effects: [
+			exit
+		]
+	}
+	{
+		eventID: press_any_key
+		trigger: keyPressed_Any
+		effects: [
+			"addNewEventByDelay 15, level_change, {level testLevel}"
+		]
+	}
+]
+onLoadEvent: {
+	effects: [
+		hidePlayer
+		removePlayerControl
+		unlockCamera
+		"setCameraPos 960, 540"
+	]
+}
+}

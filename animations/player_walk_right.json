@@ -1,0 +1,9 @@
+{
+frameDuration: 20
+animationFrames: [
+	no_armor_right_1
+	no_armor_right_2
+	no_armor_right_3
+	no_armor_right_4
+]
+}
